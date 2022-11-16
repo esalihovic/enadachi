@@ -1,0 +1,14 @@
+GRANT SELECT, EXECTUTE ON 'group36' . TO 'user'@'localhost' IDENTIFIED BY 'PASSWORD';
+/Grant a user/
+/* 
+    ALL PRIVILEGES All privileges
+    CREATE Create databases and tables
+    INSERT Insert tuples into a specific table
+    DELETE Delete tuples from a specific table
+    SELECT Read a database
+    UPDATE Update table tuples
+    DROP Drop databases and tables
+*/
+
+GRANT SELECT, UPDATE ON 'group36' . table_name TO 'my_user'@'localhost';
+GRANT SELECT ON . TO 'my_user'@'localhost';
